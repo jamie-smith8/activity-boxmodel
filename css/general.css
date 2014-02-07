@@ -25,3 +25,99 @@ img {
 	width: 100%;
     display: block;
 }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: purple;
+}
+
+.masthead {
+    background-color: beige;
+    overflow: hidden;
+}
+    
+.logo {
+    height: 3rem;
+    width: auto;
+    margin: .2rem 2%;
+    float: right;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 1.5rem 0;
+    line-height: 3.5rem;
+    color: #A0B9EF;
+}
+
+hr {
+    border: solid 6px beige;
+}
+
+article {
+    margin: 0;
+    padding: 0 9%;
+    overflow: hidden;
+}
+
+figure + p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: orange;
+    line-height: 1.9rem;
+    text-indent: 0px;
+    text-align:center;
+}
+
+p {
+    line-height: 1.5rem;
+    margin: 0 0 1.5;
+    text-indent: 15px;
+}
+
+figure {
+    margin: 0 auto 1.5rem;
+    width: 90%;
+}
+
+figcaption {
+    font-size: .75rem;
+    margin: .5rem 0 0;
+    color: brown;
+    text-align:center;
+}
+    
+footer {
+    background-color: beige;
+    overflow: hidden;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: .5rem 5% 5rem;
+    color: brown;
+}
+
+footer a {
+    color: brown;
+    font-size: 1.5rem;
+}   
+
+h2 {
+    color: #A0B9EF;
+    text-decoration:underline;
+}
+
+ul, ol {
+    line-height: 1.4rem;
+}
+
+h4 {
+    color: orange;
+}
+
+h3 {
+    color: #A0B9EF;
+}
